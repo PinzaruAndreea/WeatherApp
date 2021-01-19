@@ -1,19 +1,16 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "node app ",
-  "main": "app1.js",
   "scripts": {
     "start": "node app1.js"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": ""
+  "author": "Pinzaru Andreea",
+  "licene": "ISC",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {},
+  "license": "ISC"
 }
