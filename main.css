@@ -1,0 +1,66 @@
+body {
+    background: #eeedec;
+    letter-spacing: 0.1em;
+    font-size:2em;
+}
+
+.container {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 10px 15px 75px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 15px 75px 7px rgba(0,0,0,0.75);
+    box-shadow: 10px 15px 75px 7px rgba(0,0,0,0.75);    
+}
+
+.title {
+    color: #77778D;
+    text-align: center;
+    margin: 0.3em 0;
+}
+
+label {
+    padding: 0 0.3em;
+    font-size: 0.7em;
+}
+
+.change-location{
+    color: #77778D;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.form-control {
+        width: 80%;
+        margin-top: 1em;
+        padding:1em 0;
+        border-radius:10px;
+}
+
+.temp {
+    color: #4d4d55;
+    padding: 1em 0;
+}
+
+.card {
+    display:none;
+}
+
+.icon {
+    position: relative;
+    top: -50px;
+    left: 10rem;
+    border-radius:50%;
+    width: 100px;
+    margin-bottom: -50px;
+    background-color: #f7f7f7;
+}
+
+@media(max-width: 40rem){
+    .time {
+        height: 15rem;
+        width: 15rem;
+    }
+}
